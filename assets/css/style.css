@@ -37,9 +37,6 @@ body{
   margin:auto;
 }
 
-p{
-  color: #d3d3d3;
-}
 
 a{
   text-decoration: none;
@@ -57,15 +54,15 @@ a{
 /* /utility */
 
 
-#site-header{
+header#site-header{
   min-height: 500px;
 }
 
-#site-content{
+main#site-content{
   min-height: 1000px;
 }
 
-#site-footer{
+footer#site-footer{
   min-height: 150px;
 }
 
@@ -129,18 +126,18 @@ a{
 
 .hero-container{
   background-image: url(../img/banner_header.png);
-  background-size: 60%;
+  background-size: 70%;
   background-repeat: no-repeat;
-  background-position: 110% 110%;
+  background-position: 105% 110%;
 }
 
 .hero-banner{
-  height: 400px;
+  height: 500px;
   position: relative;
 }
 
 .hero-text{
-  width: 40%;
+  width: 45%;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -152,7 +149,7 @@ a{
 
 .hero-text h1{
   margin-bottom: 40px;
-  font-size: 4em;
+  font-size: 4.5em;
   font-weight: 500;
 }
 
@@ -174,6 +171,21 @@ a{
 .light-btn{
   border: 1px solid white;
   padding: 10px 30px !important;
+}
+
+.header-bottom-note{
+  height: 150px;
+}
+
+.header-bottom-note h3{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.header-bottom-note p{
+  font-size: 1.5em;
+  color: #808080;
+  text-align: center;
 }
 
 .row:after{
