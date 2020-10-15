@@ -149,7 +149,7 @@ footer#site-footer{
 
 .hero-text h1{
   margin-bottom: 40px;
-  font-size: 4.5em;
+  font-size: 45px;
   font-weight: 500;
 }
 
@@ -170,26 +170,111 @@ footer#site-footer{
 
 .light-btn{
   border: 1px solid white;
-  padding: 10px 30px !important;
+  padding: 1em px 3em !important;
 }
 
 .header-bottom-note{
   height: 150px;
+  position: relative;
+}
+
+.header-bottom-note .text{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
 }
 
 .header-bottom-note h3{
-  font-size: 2.5em;
+  display: inline-block;
+  width: 100%;
+  font-size: 25px;
   text-align: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-stretch: extra-condensed;
 }
 
 .header-bottom-note p{
-  font-size: 1.5em;
+  font-size: 18px;
   color: #808080;
   text-align: center;
 }
 
-.row:after{
+.row-1{
+  height: 450px;
+  border-bottom: 1px solid #808080;
+}
+
+.row-2{
+  height: 450px;
+}
+
+.fix:after{
   content: "";
   display: table;
   clear: both;
+}
+
+.card-3{
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+
+.card-3 img{
+  height: 150px;
+}
+
+.card-3 h4{
+  font-size: 2.2em;
+  margin-top: 20px;
+  color: #7cbb02;
+  font-weight: 500;
+}
+
+.card-3 hr{
+  display: inline-block;
+  margin-top: 20px;
+  border-top: 1px solid #808080;
+  border-bottom: 0;
+  width: 80px;
+  }
+
+.card-3 p{
+  color: #808080;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.card-2{
+  padding: 40px;
+  height: 450px;
+}
+
+.container .card-2:first-of-type{
+  padding-left: 60px;
+}
+
+.container .card-2:last-of-type{
+  padding-right: 60px;
+}
+
+.card-2 img{
+  height: 400px;
+  /* text-align: center; */
+}
+
+.card-2 h4{
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+
+.card-2 p{
+  color: #808080;
+  margin-top: 25px;
+  font-size: 18px;
 }
