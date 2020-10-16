@@ -10,6 +10,13 @@ body{
 }
 
 /* utility */
+
+.fix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .bg_blue{
   background-color: #0c325a;
 }
@@ -170,7 +177,7 @@ footer#site-footer{
 
 .light-btn{
   border: 1px solid white;
-  padding: 1em 3em !important;
+  padding: 1.5em 3em !important;
 }
 
 .header-bottom-note{
@@ -212,14 +219,9 @@ footer#site-footer{
   height: 450px;
 }
 
-.fix:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .card-3{
   text-align: center;
+  height: 100%;
   padding: 40px 20px 20px 20px;
 }
 
@@ -251,7 +253,7 @@ footer#site-footer{
 
 .card-2{
   padding: 40px;
-  height: 450px;
+  /* height: 100%; */
 }
 
 .container .card-2:first-of-type{
@@ -264,6 +266,7 @@ footer#site-footer{
 
 .card-2 img{
   height: 400px;
+  /* width: 200px; */
   /* text-align: center; */
 }
 
@@ -278,3 +281,5 @@ footer#site-footer{
   margin-top: 25px;
   font-size: 18px;
 }
+
+.prova{}
